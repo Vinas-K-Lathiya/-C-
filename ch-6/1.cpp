@@ -1,6 +1,5 @@
 #include<iostream>
 using namespace std;
-
 class x{
 	protected:
 		int a;
@@ -19,14 +18,9 @@ class y : public x{
 			cin>>c;
 		}
 		void getdata(){
-			cout<<" a : "<<a <<endl;
-			cout << " b : "<<b<<endl;
-			cout<<"enter c : "<<c<<endl;
+			cout<<"a : "<<a*a*a <<endl;
+			cout << "b : "<<b*b*b<<endl;
+			cout<<"c : "<<c*c*c<<endl;
 		}
 };
 
-int main(){
-	y z;
-	z.setdata();
-	z.getdata();
-}
